@@ -65,9 +65,35 @@ border: 1px solid gainsboro;
     background-color: purple;
 }
 
-
+.gray {
+    background-color: gray;
+}
 
 
 .cell {
-    background-color: gray;
+    background-color: #808080;
+    user-select: none;
+}
+
+.fill-selected {
+    border: 3px solid white;
+    transform: scale(1.1);
+    border-radius: 4px;
+}
+
+.btn-fill {
+    width: 2vw;
+    height: 2vw;
+    transition: all 0.1s linear;
+}
+
+.picture {
+    height: 100%;
+    width: 100%;
+}
+
+.btn-safe {
+    width: 2vw;
+    height: 2vw;
+    transition: all 0.1s linear;
 }
